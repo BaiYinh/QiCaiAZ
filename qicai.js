@@ -3,7 +3,7 @@ const Path = ".\\Data\\棋才.json"
 
 function qicai(e) {
     if (e.raw_message == 'az') {
-        if (e.sender.user_id == 1957567536) {
+        if (e.sender.user_id == 1372714832) {
             fs.access(Path, (err) => {
                 if (err) {
                     fs.appendFileSync(Path, '{"棋才": 0}', 'utf-8', (err) => { });
